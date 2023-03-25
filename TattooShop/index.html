@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop || KevDev</title>
+  <!-- css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="container-fluid bg-dark position-sticky top-0">
+    <ul class="nav nav-pills mb-3 py-2" id="pills-tab" role="tablist">
+
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+          type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Productos</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+          type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</button>
+      </li>
+
+    </ul>
+  </header>
+
+
+  <!-- Alerts -->
+  <div class="alert container position-sticky top-0 alert-success hide" role="alert">
+    Producto añadido..
+  </div>
+  <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+    Producto removido..
+  </div>
+
+  <div class="tab-content" id="pills-tabContent">
+
+
+    <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel"
+      aria-labelledby="pills-profile-tab" tabindex="0">
+
+      <h2 class="h4 m-4 secondary">Producto</h2>
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+        <!-- Items -->
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card shadow mb-1  rounded" style="width: 20rem;">
+            <img src="img/Studio Ghibli1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2 text-center text-primary">Chijiro</h5>
+              <p class="card-text description">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 30</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Agregar</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card shadow mb-1  rounded" style="width: 20rem;">
+            <img src="img/aldeas naruto.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2 text-center text-primary">Aldeas</h5>
+              <p class="card-text description">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 40</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Agregar</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card shadow mb-1  rounded" style="width: 20rem;">
+            <img src="img/code.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2 text-center text-primary">Code</h5>
+              <p class="card-text description">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 20</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Agregar</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card shadow mb-1  rounded" style="width: 20rem;">
+            <img src="img/guts.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2 text-center text-primary">Guts en batalla</h5>
+              <p class="card-text description">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 60</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Agregar</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card shadow mb-1  rounded" style="width: 20rem;">
+            <img src="img/nike wave.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2 text-center text-primary">Nike</h5>
+              <p class="card-text description">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 50</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Agregar</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card shadow mb-1  rounded" style="width: 20rem;">
+            <img src="img/samurai red.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2 text-center text-primary">Samurai rojo</h5>
+              <p class="card-text description">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 25</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Agregar</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card shadow mb-1  rounded" style="width: 20rem;">
+            <img src="img/guts sword.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2 text-center text-primary">Guts descansando</h5>
+              <p class="card-text description">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 650</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Agregar</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card shadow mb-1  rounded" style="width: 20rem;">
+            <img src="img/wave.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title pt-2 text-center text-primary">Ola japonesa</h5>
+              <p class="card-text description">Some quick example text to build on the card title and make up the bulk
+                of the card's
+                content.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 130</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Agregar</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+      tabindex="0">
+
+      <!-- product values -->
+      <table class="table">
+        <thead class="table-light">
+          <tr class="">
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          <tr>
+
+          </tr>
+
+        </tbody>
+      </table>
+
+      <!-- product history -->
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify content-end">
+          <button class="btn btn-secondary">Comprar</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <footer class="bg-dark p-3 mt-5">
+    <p class="text-center m-0 text-light">KevDev- Shop</p>
+  </footer>
+
+
+
+
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
