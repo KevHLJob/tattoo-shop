@@ -1,4 +1,4 @@
-# tattoo-shop
+# Tattoo-shop
 
 Designed for purchase of realistic tattoo designs
 
